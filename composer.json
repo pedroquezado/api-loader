@@ -1,0 +1,36 @@
+{
+    "name": "pedroquezado/api-loader",
+    "description": "A library for loading and interacting with APIs",
+    "type": "library",
+    "keywords": [
+        "framework",
+        "http",
+        "rest",
+        "web service",
+        "curl",
+        "client",
+        "HTTP client",
+        "PSR-7",
+        "PSR-18"
+    ],
+    "homepage": "https://www.pedroquezado.com.br",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pedro Quezado",
+            "email": "eu@pedroquezado.com.br",
+            "homepage": "https://www.pedroquezado.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "API\\Loader\\": "src/API/Loader/",
+            "API\\Traits\\": "src/API/Traits/",
+            "API\\Exceptions\\": "src/Exceptions/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
